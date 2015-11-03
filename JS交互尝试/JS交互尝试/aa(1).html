@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	function one(){
+        var iFrame;
+        iFrame = document.createElement("iframe");
+        iFrame.setAttribute("src", "//ios-one");
+        iFrame.setAttribute("style", "display:none;");
+        iFrame.setAttribute("height", "0px");
+        iFrame.setAttribute("width", "0px");
+        iFrame.setAttribute("frameborder", "0");
+        document.body.appendChild(iFrame);
+	}
+    
+	function two(){
+        var iFrame;
+        iFrame = document.createElement("iframe");
+        iFrame.setAttribute("src", "//ios-two");
+        iFrame.setAttribute("style", "display:none;");
+        iFrame.setAttribute("height", "0px");
+        iFrame.setAttribute("width", "0px");
+        iFrame.setAttribute("frameborder", "0");
+        document.body.appendChild(iFrame);
+        
+	}
+    
+	function three(){
+        var iFrame;
+        iFrame = document.createElement("iframe");
+        iFrame.setAttribute("src", "//ios-three");
+        iFrame.setAttribute("style", "display:none;");
+        iFrame.setAttribute("height", "0px");
+        iFrame.setAttribute("width", "0px");
+        iFrame.setAttribute("frameborder", "0");
+        document.body.appendChild(iFrame);
+	}
+	</script>
+</head>
+<body>
+	<button onclick="one()">第一个</button>
+	&nbsp;
+	<button onclick="two()">第二个</button>
+	&nbsp;
+	<button onclick="three()">第三个</button>
+</body>
+</html>
